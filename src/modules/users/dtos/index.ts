@@ -7,4 +7,8 @@ interface IFindUserByFullNameDTO {
   last_name: string;
 }
 
+interface ICreateUserDTO {
+  
+}
+
 export { IFindUserWithGamesDTO, IFindUserByFullNameDTO };
